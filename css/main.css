@@ -3,6 +3,10 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+body.print-mode {
+  background: #5fb3ce;
+}
+
 #content {
   width: 1000px;
   height: 700px;
@@ -10,6 +14,10 @@ body {
   border: 8px solid white;
   border-radius: 30px;
   position: relative;
+}
+
+#content.print-mode {
+  border: 0;
 }
 
 .page {
@@ -79,14 +87,14 @@ body {
 }
 
 .start-menu-text {
-  margin-top: 420px;
+  margin-top: 400px;
   font-family: "Sacramento";
   font-weight: bolder;
   font-size: 100px;
   text-align: center;
-  margin-bottom: -5px;
+  margin-bottom: 10px;
   color: #e6e6e6;
-  text-shadow: black 3px;
+  text-shadow: black 3px 3px 10px;
 }
 
 .start-menu-buttons {
@@ -249,5 +257,9 @@ body {
 .trophy-desc {
   margin-top: 10px;
   margin-bottom: 25px;
+}
+
+.end-menu-text.print-show {
+  font-size: 100px;
 }
 /*# sourceMappingURL=main.css.map */
