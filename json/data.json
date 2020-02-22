@@ -36,20 +36,20 @@
                     "points": 100
                 },
                 {
-                    "x1": 689,
-                    "y1": 99,
-                    "x2": 705,
-                    "y2": 109,
+                    "x1": 366,
+                    "y1": 361,
+                    "x2": 402,
+                    "y2": 434,
                     "title": "Light",
                     "description": "Turn off the lights when they are not needed.",
                     "icon": "lightbulb",
                     "points": 100
                 },
                 {
-                    "x1": 480,
-                    "y1": 240,
-                    "x2": 680,
-                    "y2": 360,
+                    "x1": 427,
+                    "y1": 228,
+                    "x2": 624,
+                    "y2": 341,
                     "title": "Television (TV)",
                     "description": "TVs are bad. Get rid of them.",
                     "icon": "tv",
@@ -62,7 +62,51 @@
                     "y2": 364,
                     "title": "Console System",
                     "description": "Unplug systems when not in use.",
-                    "icon": "tv",
+                    "icon": "",
+                    "points": 100
+                }
+            ]
+        },
+        "kitchen": {
+            "clickLocations": [
+                {
+                    "x1": 106,
+                    "y1": 157,
+                    "x2": 245,
+                    "y2": 487,
+                    "title": "Fridge",
+                    "description": "Use a fridge that is low energy and keep it full.",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 700,
+                    "y1": 396,
+                    "x2": 791,
+                    "y2": 412,
+                    "title": "Dishwasher",
+                    "description": "Replace dishwashers with one that recycles water or uses less water.",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 249,
+                    "y1": 331,
+                    "x2": 287,
+                    "y2": 378,
+                    "title": "Coffee Pot",
+                    "description": "Unplug appliances when not in use",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 741,
+                    "y1": 366,
+                    "x2": 777,
+                    "y2": 378,
+                    "title": "Coffee Pot",
+                    "description": "Unplug appliances when not in use",
+                    "icon": "",
                     "points": 100
                 }
             ]
@@ -85,7 +129,7 @@
                     "x2": 844,
                     "y2": 381,
                     "title": "Computer",
-                    "description": "Turn off a computer when you leave",
+                    "description": "Turn off a computer when you leave.",
                     "icon": "",
                     "points": 100
                 },
@@ -95,7 +139,17 @@
                     "x2": 576,
                     "y2": 132,
                     "title": "Fan",
-                    "description": "Turn off a fan when you leave",
+                    "description": "Turn off a fan when you leave.",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 280,
+                    "y1": 207,
+                    "x2": 442,
+                    "y2": 428,
+                    "title": "Window",
+                    "description": "Have tight sealed double paned windows.",
                     "icon": "",
                     "points": 100
                 }
