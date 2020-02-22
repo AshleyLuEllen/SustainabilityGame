@@ -51,7 +51,9 @@ $(document).ready(() => {
                         type: el.score ? "blue" : "green",
                         typeAnimated: true,
                         theme: "material",
-                        onClose: addScore
+                        onClose: addScore,
+                        escapeKey: el.score ? "ok" : false,
+                        backgroundDismiss: el.score ? "ok" : false
                     });
 
                     break;
@@ -86,7 +88,26 @@ $(document).ready(() => {
 });
 
 function showInstructions() {
-    alert("Help message.");
+    $.alert({
+        title: "How to Play",
+        content: `
+            <p><b><em>Sustainability</em></b> is when we live and act in such a way to use less natural resources. Examples of living sustainably would include turning off the lights to save electricity and using less water while in the bathroom. If we do these things, we can work together to save the environment!</p>
+            <ul>
+                <li>Click on the items in the house that are things which can be <em>changed</em> to live more sustainably or are <em>already good examples</em> of sustainability.</li>
+                <li>When you click on an unsustainable item, you will be shown what you can do to better your situation. Try putting some of these skills into practice!</li>
+                <li>You get more points depending on how quickly you find objects! But be careful, although speed is a factor, so is accuracy. Just clicking everywhere won't get you a lot of points.</li>
+                <li>Try to find all of the items in the house. You get trophies when you finish depending on how many items you find!</li>
+            </ul>
+        `,
+        useBootstrap: false,
+        icon: `fa fa-question`,
+        animation: "scale",
+        closeAnimation: "zoom",
+        animateFromElement: false,
+        type: "blue",
+        typeAnimated: true,
+        theme: "material"
+    });
 }
 
 function startGame() {
@@ -139,19 +160,19 @@ function endGame() {
         $(".end-trophy").addClass("color-bronze");
         $(".end-trophy").removeClass("color-silver");
         $(".end-trophy").removeClass("color-gold");
-        $(".trophy-desc").text("You explored the house to find different ways to live sustainably. Unfortunately, you did not find all of the sources of sustainability. Click \"Play Again!\" to try and find the things you missed!");
+        $(".trophy-desc").html("You explored the house to find different ways to live sustainably. Unfortunately, you did not find all of the sources of sustainability. <span class='print-hide'>Click \"Play Again!\" to try and find the things you missed!</span>");
     } else if (numLocationsFound < numLocationsTotal * 2 / 3) {
         $(".trophy-type").text("silver");
         $(".end-trophy").removeClass("color-bronze");
         $(".end-trophy").addClass("color-silver");
         $(".end-trophy").removeClass("color-gold");
-        $(".trophy-desc").text("You explored the house to find different ways to live sustainably. You found most of the sources of sustainability! Click \"Play Again!\" to try and find the things you missed!");
+        $(".trophy-desc").html("You explored the house to find different ways to live sustainably. You found most of the sources of sustainability! <span class='print-hide'>Click \"Play Again!\" to try and find the things you missed!</span>");
     } else {
         $(".trophy-type").text("gold");
         $(".end-trophy").removeClass("color-bronze");
         $(".end-trophy").removeClass("color-silver");
         $(".end-trophy").addClass("color-gold");
-        $(".trophy-desc").text("You explored the house to find different ways to live sustainably. You, found all of the sources of sustainability! Click \"Play Again!\" to try and find the things you missed!");
+        $(".trophy-desc").html("You explored the house to find different ways to live sustainably. You, found all of the sources of sustainability! <span class='print-hide'>Click \"Play Again!\" to try and find the things you missed!</span>");
     }
 
     for (let page of Object.keys(pages)) {
@@ -168,9 +189,19 @@ function resetBonuses() {
 }
 
 function getTimeBonus() {
-    return Math.max((30000 - (Date.now() - timer)) / 1000 / 30 * 50, 0);
+    return Math.max((30000 - (Date.now() - timer)) / 1000 / 30 * 25, 0);
 }
 
 function getClickBonus() {
-    return Math.max((5 - clicks) * 10, 0);
+    return Math.max((5 - clicks) * 15, 0);
+}
+
+function printCertificate() {
+    $('.print-hide').hide();
+    $('.print-show').show();
+    $('.print-change').addClass("print-mode");
+    window.print();
+    $('.print-hide').show();
+    $('.print-show').hide();
+    $('.print-change').removeClass("print-mode");
 }

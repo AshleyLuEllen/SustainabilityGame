@@ -11,13 +11,17 @@
 
     <link href="https://fonts.googleapis.com/css?family=Rubik|Sacramento&display=swap" rel="stylesheet">
     <script type="text/javascript" src="js/index.js"></script>
+
+    <style type="text/css" media="print">
+        @page { size: landscape; }
+      </style>
 </head>
-<body>
-    <div style="display: none;" id="content">
+<body class="print-change">
+    <div style="display: none;" id="content" class="print-change">
         <!-- Home Page -->
         <div class="page" id="homePage">
             <h1 class="header">&nbsp;</h1>
-            <div class="start-menu-text">Welcome home!</div>
+            <div class="start-menu-text">The Sustainability Game</div>
             <div class="start-menu-buttons">
                 <button onclick="showInstructions();" class="start-menu-button">How to Play</button>
                 <button onclick="startGame();" class="start-menu-button">Let's Go!</button>
@@ -129,10 +133,11 @@
             <div class="end-menu-desc">You scored <span class="score"></span> points and earned a <span class="trophy-type">bronze</span> trophy!</div>
             <div class="end-menu-trophy"><i class="fa fa-trophy end-trophy color-bronze"></i></div>
             <div class="end-menu-desc trophy-desc">You explored the house to find different ways to live sustainably. Unfortunately, you did not find all of the sources of sustainability. Click "Play Again!" to try and find the things you missed!</div>
-            <div class="start-menu-buttons">
+            <div class="start-menu-buttons print-hide">
                 <button onclick="changeToRoom('homePage');" class="start-menu-button">Play Again!</button>
                 <button onclick="printCertificate();" class="start-menu-button">Print Certificate</button>
             </div>
+            <div class="end-menu-text print-show" style="display: none;">The Sustainability Game</div>
         </div>
 
         <!-- Score Flyer -->
