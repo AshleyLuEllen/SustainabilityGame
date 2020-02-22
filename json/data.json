@@ -26,13 +26,23 @@
                     "points": 100
                 },
                 {
-                    "x1": 480,
-                    "y1": 240,
-                    "x2": 680,
-                    "y2": 360,
-                    "title": "Television (TV)",
-                    "description": "TVs are bad. Get rid of them.",
-                    "icon": "tv",
+                    "x1": 309,
+                    "y1": 98,
+                    "x2": 329,
+                    "y2": 110,
+                    "title": "Light",
+                    "description": "Turn off the lights when they are not needed.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 689,
+                    "y1": 99,
+                    "x2": 705,
+                    "y2": 109,
+                    "title": "Light",
+                    "description": "Turn off the lights when they are not needed.",
+                    "icon": "lightbulb",
                     "points": 100
                 },
                 {
@@ -46,12 +56,12 @@
                     "points": 100
                 },
                 {
-                    "x1": 480,
-                    "y1": 240,
-                    "x2": 680,
-                    "y2": 360,
-                    "title": "Television (TV)",
-                    "description": "TVs are bad. Get rid of them.",
+                    "x1": 584,
+                    "y1": 353,
+                    "x2": 635,
+                    "y2": 364,
+                    "title": "Console System",
+                    "description": "Unplug systems when not in use.",
                     "icon": "tv",
                     "points": 100
                 }
