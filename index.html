@@ -20,7 +20,7 @@
             <div class="start-menu-text">Welcome home!</div>
             <div class="start-menu-buttons">
                 <button onclick="showInstructions();" class="start-menu-button">How to Play</button>
-                <button onclick="startGame();" class="start-menu-button">Let's go!</button>
+                <button onclick="startGame();" class="start-menu-button">Let's Go!</button>
             </div>
         </div>
 
@@ -28,13 +28,36 @@
         <div class="page" style="display: none;" id="livingRoom">
             <h1 class="header">Living Room</h1>
             <div class="map"></div>
+            <div class="score-display">
+                <div class="score-label"><span class="fa fa-trophy"></span> Score:</div>
+                <div class="score">15000</div>
+                <button class="end-game">End Game</button>
+            </div>
         </div>
 
         <!-- Bedroom -->
         <div class="page" style="display: none;" id="office">
             <h1 class="header">Office</h1>
             <div class="map"></div>
+            <div class="score-display">
+                <div class="score-label"><span class="fa fa-trophy"></span> Score:</div>
+                <div class="score">15000</div>
+                <button class="end-game">End Game</button>
+            </div>
         </div>
+
+        <!-- End Screen -->
+        <div class="page" style="display: none;" id="endGame">
+            <div class="end-menu-text">Thanks for playing!</div>
+            <div class="end-menu-desc">You scored <span class="score"></span> points!</div>
+            <div class="start-menu-buttons">
+                <button onclick="startGame();" class="start-menu-button">Play Again!</button>
+                <button onclick="printCertificate();" class="start-menu-button">Print Certificate</button>
+            </div>
+        </div>
+
+        <!-- Score Flyer -->
+        <div class="score-flyer">+100</div>
     </div>
 </body>
 </html>
