@@ -9,9 +9,13 @@ body {
   margin: 0 auto;
   border: 8px solid white;
   border-radius: 30px;
+  position: relative;
 }
 
 .page {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 1000px;
   height: 700px;
   background-position: center top;
@@ -23,6 +27,16 @@ body {
 #homePage {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../img/front-door.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/front-door.jpg");
+}
+
+#livingRoom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("../img/livingRoom.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/livingRoom.jpg");
+}
+
+#office {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("https://cdn.pixabay.com/photo/2017/01/28/08/12/home-office-2014864_960_720.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://cdn.pixabay.com/photo/2017/01/28/08/12/home-office-2014864_960_720.jpg");
 }
 
 .start-menu-text {
@@ -58,9 +72,39 @@ body {
 }
 
 .header {
-  width: 100%;
   text-align: center;
   margin-top: 0;
   padding: 10px;
+  border: 8px solid white;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  background-color: #5fb3ce;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#homePage > .header {
+  color: white;
+  border: 0;
+  background: none;
+}
+
+.map {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: red;
+  width: 200px;
+  height: 200px;
+  background-color: #5fb3ce;
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 8px solid white;
+  border-left: 0;
+  border-bottom: 0;
+  background-image: url("../img/map.png");
 }
 /*# sourceMappingURL=main.css.map */

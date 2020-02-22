@@ -1,0 +1,39 @@
+{
+    "pages": {
+        "homePage" : {
+            "clickLocations": []
+        },
+        "livingRoom": {
+            "clickLocations": [
+                {
+                    "x1": 480,
+                    "y1": 240,
+                    "x2": 680,
+                    "y2": 360,
+                    "title": "Television (TV)",
+                    "description": "TVs are bad. Get rid of them.",
+                    "points": 100
+                }
+            ]
+        },
+        "office": {
+            "clickLocations": []
+        }
+    },
+    "mapLocations": [
+        {
+            "x1": 6,
+            "y1": 20,
+            "x2": 130,
+            "y2": 100,
+            "room": "livingRoom"
+        },
+        {
+            "x1": 45,
+            "y1": 110,
+            "x2": 180,
+            "y2": 200,
+            "room": "office"
+        }
+    ]
+}
