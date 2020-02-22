@@ -6,36 +6,35 @@
         "livingRoom": {
             "clickLocations": [
                 {
-                    "x1": 309,
-                    "y1": 98,
-                    "x2": 329,
-                    "y2": 110,
+                    "x1": 289,
+                    "y1": 91,
+                    "x2": 345,
+                    "y2": 114,
                     "title": "Light",
                     "description": "Turn off the lights when they are not needed.",
                     "icon": "lightbulb",
                     "points": 100
                 },
                 {
-                    "x1": 689,
-                    "y1": 99,
-                    "x2": 705,
-                    "y2": 109,
+                    "x1": 676,
+                    "y1": 90,
+                    "x2": 716,
+                    "y2": 116,
                     "title": "Light",
                     "description": "Turn off the lights when they are not needed.",
                     "icon": "lightbulb",
                     "points": 100
                 },
                 {
-                    "x1": 309,
-                    "y1": 98,
-                    "x2": 329,
-                    "y2": 110,
+                    "x1": 662,
+                    "y1": 363,
+                    "x2": 735,
+                    "y2": 425,
                     "title": "Light",
                     "description": "Turn off the lights when they are not needed.",
                     "icon": "lightbulb",
                     "points": 100
-                },
-                {
+                },{
                     "x1": 366,
                     "y1": 361,
                     "x2": 402,
@@ -56,12 +55,23 @@
                     "points": 100
                 },
                 {
-                    "x1": 584,
-                    "y1": 353,
-                    "x2": 635,
-                    "y2": 364,
+                    "x1": 575,
+                    "y1": 346,
+                    "x2": 640,
+                    "y2": 377,
                     "title": "Console System",
                     "description": "Unplug systems when not in use.",
+                    "icon": "",
+                    "points": 100
+                },
+                ,
+                {
+                    "x1": 91,
+                    "y1": 108,
+                    "x2": 209,
+                    "y2": 444,
+                    "title": "Window",
+                    "description": "Have tight sealed double paned windows.",
                     "icon": "",
                     "points": 100
                 }
@@ -95,17 +105,27 @@
                     "x2": 287,
                     "y2": 378,
                     "title": "Coffee Pot",
-                    "description": "Unplug appliances when not in use",
+                    "description": "Unplug appliances when not in use.",
                     "icon": "",
                     "points": 100
                 },
                 {
-                    "x1": 741,
-                    "y1": 366,
-                    "x2": 777,
-                    "y2": 378,
+                    "x1": 732,
+                    "y1": 331,
+                    "x2": 781,
+                    "y2": 383,
                     "title": "Coffee Pot",
-                    "description": "Unplug appliances when not in use",
+                    "description": "Unplug appliances when not in use.",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 565,
+                    "y1": 324,
+                    "x2": 659,
+                    "y2": 387,
+                    "title": "Sink",
+                    "description": "Make sure that tap is completely off.",
                     "icon": "",
                     "points": 100
                 }
