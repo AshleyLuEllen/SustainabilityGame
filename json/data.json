@@ -12,7 +12,7 @@
                     "y2": 110,
                     "title": "Light",
                     "description": "Turn off the lights when they are not needed.",
-                    "icon": "tv",
+                    "icon": "lightbulb",
                     "points": 100
                 },
                 {
@@ -22,7 +22,7 @@
                     "y2": 109,
                     "title": "Light",
                     "description": "Turn off the lights when they are not needed.",
-                    "icon": "tv",
+                    "icon": "lightbulb",
                     "points": 100
                 },
                 {
@@ -94,10 +94,10 @@
     },
     "mapLocations": [
         {
-            "x1": 6,
-            "y1": 20,
-            "x2": 130,
-            "y2": 100,
+            "x1": 101,
+            "y1": 151,
+            "x2": 219,
+            "y2": 205,
             "room": "livingRoom"
         },
         {
