@@ -12,6 +12,7 @@
                     "y2": 360,
                     "title": "Television (TV)",
                     "description": "TVs are bad. Get rid of them.",
+                    "icon": "tv",
                     "points": 100
                 }
             ]

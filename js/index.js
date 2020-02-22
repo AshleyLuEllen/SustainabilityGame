@@ -18,7 +18,12 @@ $(document).ready(() => {
         if (pages[$(event.target).attr("id")]) {
             for (let el of pages[$(event.target).attr("id")].clickLocations) {
                 if (el.x1 <= mouseX && mouseX <= el.x2 && el.y1 <= mouseY && mouseY <= el.y2) {
-                    alert(el.description);
+                    $.alert({
+                        title: el.title,
+                        content: el.description,
+                        useBootstrap: false,
+                        icon: `fa fa-${el.icon}`
+                    });
                     break;
                 }
             }
