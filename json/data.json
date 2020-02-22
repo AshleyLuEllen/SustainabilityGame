@@ -6,6 +6,46 @@
         "livingRoom": {
             "clickLocations": [
                 {
+                    "x1": 309,
+                    "y1": 98,
+                    "x2": 329,
+                    "y2": 110,
+                    "title": "Light",
+                    "description": "Turn off the lights when they are not needed.",
+                    "icon": "tv",
+                    "points": 100
+                },
+                {
+                    "x1": 689,
+                    "y1": 99,
+                    "x2": 705,
+                    "y2": 109,
+                    "title": "Light",
+                    "description": "Turn off the lights when they are not needed.",
+                    "icon": "tv",
+                    "points": 100
+                },
+                {
+                    "x1": 480,
+                    "y1": 240,
+                    "x2": 680,
+                    "y2": 360,
+                    "title": "Television (TV)",
+                    "description": "TVs are bad. Get rid of them.",
+                    "icon": "tv",
+                    "points": 100
+                },
+                {
+                    "x1": 480,
+                    "y1": 240,
+                    "x2": 680,
+                    "y2": 360,
+                    "title": "Television (TV)",
+                    "description": "TVs are bad. Get rid of them.",
+                    "icon": "tv",
+                    "points": 100
+                },
+                {
                     "x1": 480,
                     "y1": 240,
                     "x2": 680,
@@ -18,7 +58,38 @@
             ]
         },
         "office": {
-            "clickLocations": []
+            "clickLocations": [
+                {
+                    "x1": 466,
+                    "y1": 276,
+                    "x2": 531,
+                    "y2": 317,
+                    "title": "Light",
+                    "description": "Turn off the lights when you leave a room.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 633,
+                    "y1": 319,
+                    "x2": 844,
+                    "y2": 381,
+                    "title": "Computer",
+                    "description": "Turn off a computer when you leave",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 361,
+                    "y1": 70,
+                    "x2": 576,
+                    "y2": 132,
+                    "title": "Fan",
+                    "description": "Turn off a fan when you leave",
+                    "icon": "",
+                    "points": 100
+                }
+            ]
         }
     },
     "mapLocations": [
@@ -30,10 +101,52 @@
             "room": "livingRoom"
         },
         {
-            "x1": 45,
-            "y1": 110,
-            "x2": 180,
-            "y2": 200,
+            "x1": 81,
+            "y1": 68,
+            "x2": 149,
+            "y2": 133,
+            "room": "kitchen"
+        },
+        {
+            "x1": 219,
+            "y1": 120,
+            "x2": 288,
+            "y2": 204,
+            "room": "bedroom"
+        },
+        {
+            "x1": 219,
+            "y1": 68,
+            "x2": 288,
+            "y2": 120,
+            "room": "bathroom"
+        },
+        {
+            "x1": 3,
+            "y1": 98,
+            "x2": 81,
+            "y2": 206,
+            "room": "garage"
+        },
+        {
+            "x1": 108,
+            "y1": 15,
+            "x2": 287,
+            "y2": 66,
+            "room": "backyard"
+        },
+        {
+            "x1": 23,
+            "y1": 14,
+            "x2": 108,
+            "y2": 66,
+            "room": "garden"
+        },
+        {
+            "x1": 149,
+            "y1": 68,
+            "x2": 195,
+            "y2": 131,
             "room": "office"
         }
     ]
