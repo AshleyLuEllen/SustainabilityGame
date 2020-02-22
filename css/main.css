@@ -39,6 +39,41 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://cdn.pixabay.com/photo/2017/01/28/08/12/home-office-2014864_960_720.jpg");
 }
 
+#bedroom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("../img/bedroom.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/bedroom.jpg");
+}
+
+#bathroom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("https://www.homestratosphere.com/wp-content/uploads/2019/08/Interior-of-modern-bathroom-toilet-vanity-shower-nov4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://www.homestratosphere.com/wp-content/uploads/2019/08/Interior-of-modern-bathroom-toilet-vanity-shower-nov4.jpg");
+}
+
+#kitchen {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("https://images-ext-1.discordapp.net/external/knqLybrrebAP52WoimcASNNPVYIA_N1cy9kLMxY03gY/https/live.staticflickr.com/4361/35963279133_2463c3c9ba_b.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://images-ext-1.discordapp.net/external/knqLybrrebAP52WoimcASNNPVYIA_N1cy9kLMxY03gY/https/live.staticflickr.com/4361/35963279133_2463c3c9ba_b.jpg");
+}
+
+#garage {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("https://wonderfulengineering.com/wp-content/uploads/2014/08/25-garage-design-ideas-23.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://wonderfulengineering.com/wp-content/uploads/2014/08/25-garage-design-ideas-23.jpg");
+}
+
+#garden {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("https://www.active.com/Assets/Nutrition/620/how-to-start-a-substainable-garden.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://www.active.com/Assets/Nutrition/620/how-to-start-a-substainable-garden.jpg");
+}
+
+#backyard {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Harvey_LA_back_yard_2.jpg/1200px-Harvey_LA_back_yard_2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Harvey_LA_back_yard_2.jpg/1200px-Harvey_LA_back_yard_2.jpg");
+}
+
+#hallway {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("../img/hallway.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/hallway.jpg");
+}
+
 #endGame {
   background: #5fb3ce;
 }
@@ -191,6 +226,7 @@ body {
 .end-menu-trophy {
   font-size: 200px;
   text-align: center;
+  text-shadow: 0 0 10px white;
 }
 
 .color-bronze {
