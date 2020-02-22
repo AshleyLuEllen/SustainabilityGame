@@ -51,7 +51,9 @@ $(document).ready(() => {
                         type: el.score ? "blue" : "green",
                         typeAnimated: true,
                         theme: "material",
-                        onClose: addScore
+                        onClose: addScore,
+                        escapeKey: el.score ? "ok" : false,
+                        backgroundDismiss: el.score ? "ok" : false
                     });
 
                     break;
