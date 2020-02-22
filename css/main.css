@@ -179,13 +179,39 @@ body {
 }
 
 .end-menu-desc {
-  margin-top: 20px;
+  margin: 20px;
   font-family: "Rubik";
   font-weight: bolder;
   font-size: 30px;
   text-align: center;
-  margin-bottom: -5px;
   color: #e6e6e6;
   text-shadow: black 3px;
+}
+
+.end-menu-trophy {
+  font-size: 200px;
+  text-align: center;
+}
+
+.color-bronze {
+  color: #806232;
+}
+
+.color-silver {
+  color: silver;
+}
+
+.color-gold {
+  color: gold;
+}
+
+.trophy-type {
+  text-align: center;
+  font-size: 40px;
+}
+
+.trophy-desc {
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 /*# sourceMappingURL=main.css.map */

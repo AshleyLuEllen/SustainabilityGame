@@ -49,9 +49,11 @@
         <!-- End Screen -->
         <div class="page" style="display: none;" id="endGame">
             <div class="end-menu-text">Thanks for playing!</div>
-            <div class="end-menu-desc">You scored <span class="score"></span> points!</div>
+            <div class="end-menu-desc">You scored <span class="score"></span> points and earned a <span class="trophy-type">bronze</span> trophy!</div>
+            <div class="end-menu-trophy"><i class="fa fa-trophy end-trophy color-bronze"></i></div>
+            <div class="end-menu-desc trophy-desc">You explored the house to find different ways to live sustainably. Unfortunately, you did not find all of the sources of sustainability. Click "Play Again!" to try and find the things you missed!</div>
             <div class="start-menu-buttons">
-                <button onclick="startGame();" class="start-menu-button">Play Again!</button>
+                <button onclick="changeToRoom('homePage');" class="start-menu-button">Play Again!</button>
                 <button onclick="printCertificate();" class="start-menu-button">Print Certificate</button>
             </div>
         </div>
