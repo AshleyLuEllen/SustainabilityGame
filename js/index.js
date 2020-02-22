@@ -4,10 +4,20 @@ let fadeTime = 1000;
 let currentRoom;
 let score;
 let lastClick;
+let timer;
+let thisScore;
+let clicks = 0;
+let numLocationsTotal;
+let numLocationsFound;
 
 $.getJSON("json/data.json", data => {
     pages = data.pages;
     mapLocations = data.mapLocations;
+
+    numLocationsTotal = 0;
+    for (let page of Object.keys(pages)) {
+        numLocationsTotal += pages[page].clickLocations.length;
+    }
 });
 
 $(document).ready(() => {
@@ -28,10 +38,11 @@ $(document).ready(() => {
             for (let el of pages[$(event.target).attr("id")].clickLocations) {
                 if (el.x1 <= mouseX && mouseX <= el.x2 && el.y1 <= mouseY && mouseY <= el.y2) {
                     lastClick = el;
+                    thisScore = Math.ceil(el.points + getTimeBonus() + getClickBonus());
 
                     $.alert({
                         title: el.title,
-                        content: `<p>${el.description}</p>` + (!el.score ? `<p><em>Congratulations! You earned ${el.points} points!</em></p>` : ""),
+                        content: `<p>${el.description}</p>` + (!el.score ? `<p><em>Congratulations! You earned ${thisScore} points!</em></p>` : ""),
                         useBootstrap: false,
                         icon: `fa fa-${el.icon}`,
                         animation: "scale",
@@ -48,7 +59,9 @@ $(document).ready(() => {
             }
         }
 
-        console.log(`Click! ${mouseX} ${mouseY}`);
+        ++clicks;
+
+        console.log(`Click! ${mouseX} ${mouseY} ${clicks}`);
     });
 
     $(".map").click(event => {
@@ -61,6 +74,8 @@ $(document).ready(() => {
                 break;
             } 
         }
+
+        --clicks;
     });
 
     $(".end-game").click(e => {
@@ -77,8 +92,10 @@ function showInstructions() {
 function startGame() {
     currentRoom = "homePage";
     score = 0;
+    numLocationsFound = 0;
     changeToRoom("livingRoom");
     updateScore();
+    resetBonuses();
 }
 
 function changeToRoom(room) {
@@ -96,9 +113,11 @@ function updateScore() {
 function addScore() {
     if (!lastClick.score) {
         lastClick.score = true;
-        score += lastClick.points;
+        score += thisScore;
 
-        $(".score-flyer").text(`+${lastClick.points}`);
+        ++numLocationsFound;
+
+        $(".score-flyer").text(`+${thisScore}`);
 
         $(".score-flyer").show();
     
@@ -109,9 +128,49 @@ function addScore() {
             $(".score-flyer").removeClass("fly");
             updateScore();
         },800);
+
+        resetBonuses();
     }
 }
 
 function endGame() {
+    if (numLocationsFound < numLocationsTotal / 2) {
+        $(".trophy-type").text("bronze");
+        $(".end-trophy").addClass("color-bronze");
+        $(".end-trophy").removeClass("color-silver");
+        $(".end-trophy").removeClass("color-gold");
+        $(".trophy-desc").text("You explored the house to find different ways to live sustainably. Unfortunately, you did not find all of the sources of sustainability. Click \"Play Again!\" to try and find the things you missed!");
+    } else if (numLocationsFound < numLocationsTotal * 2 / 3) {
+        $(".trophy-type").text("silver");
+        $(".end-trophy").removeClass("color-bronze");
+        $(".end-trophy").addClass("color-silver");
+        $(".end-trophy").removeClass("color-gold");
+        $(".trophy-desc").text("You explored the house to find different ways to live sustainably. You found most of the sources of sustainability! Click \"Play Again!\" to try and find the things you missed!");
+    } else {
+        $(".trophy-type").text("gold");
+        $(".end-trophy").removeClass("color-bronze");
+        $(".end-trophy").removeClass("color-silver");
+        $(".end-trophy").addClass("color-gold");
+        $(".trophy-desc").text("You explored the house to find different ways to live sustainably. You, found all of the sources of sustainability! Click \"Play Again!\" to try and find the things you missed!");
+    }
+
+    for (let page of Object.keys(pages)) {
+        for (let loc of pages[page].clickLocations) {
+            loc.score = false;
+        }
+    }
     changeToRoom("endGame");
+}
+
+function resetBonuses() {
+    timer = Date.now();
+    clicks = 0;
+}
+
+function getTimeBonus() {
+    return Math.max((30000 - (Date.now() - timer)) / 1000 / 30 * 50, 0);
+}
+
+function getClickBonus() {
+    return Math.max((5 - clicks) * 10, 0);
 }
