@@ -1,0 +1,61 @@
+$content-width: 1000px;
+$content-height: 700px;
+
+body {
+    background: lightblue;
+    font-family: "Rubik", sans-serif;
+}
+
+#content {
+    width: $content-width;
+    height: $content-height;
+    margin: 0 auto;
+    border: 8px solid white;    
+    border-radius: 30px;
+}
+
+.page {
+    width: $content-width;
+    height: $content-height;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#homePage {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/front-door.jpg");
+}
+
+.start-menu-text {
+    margin-top: 420px;
+    font-family: "Sacramento";
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: -5px;
+    color: darken(white, 10%);
+    text-shadow: black 3px;
+}
+
+.start-menu-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.start-menu-button {
+    font-size: 36px;
+    font-family: "Rubik", ;
+    margin: 0 50px;
+    padding: 5px 10px;
+    flex: 1 1 0px;
+    background-color: darken(white, 10%);
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    padding: 10px;
+}
