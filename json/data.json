@@ -70,7 +70,7 @@
                     "x2": 209,
                     "y2": 444,
                     "title": "Window",
-                    "description": "Have tight sealed double paned windows.",
+                    "description": "Windows are a primary source of heat flow into and out of a house. During the summer, opening your windows during the morning can cool your house efficiently and naturally so your A/C does not need to run all day. Similarly, keeping windows closed in the winter keeps the heat in and prevents your heater from having to work so hard. However, your windows can also be used to quickly change the temperature of a room instead of using the A/C for the same reasons! <br/> In addition, double-paned clear windows are the most effective windows for insulating a house and for letting natural sunlight in.",
                     "icon": "border-all",
                     "points": 100
                 },
@@ -94,7 +94,7 @@
                     "x2": 245,
                     "y2": 487,
                     "title": "Fridge",
-                    "description": "Use a fridge that is low energy and keep it full.",
+                    "description": "Refridgerators are power-hungry machines. However, if you keep them full and clean, they will run more efficient. You can also use your refridgerator to store leftover food for longer time. This reduces the amount of waste that your household may generate.",
                     "icon": "apple-alt",
                     "points": 100
                 },
@@ -228,7 +228,7 @@
                     "x2": 442,
                     "y2": 428,
                     "title": "Window",
-                    "description": "Have tight sealed double paned windows.",
+                    "description": "Windows are a primary source of heat flow into and out of a house. During the summer, opening your windows during the morning can cool your house efficiently and naturally so your A/C does not need to run all day. Similarly, keeping windows closed in the winter keeps the heat in and prevents your heater from having to work so hard. However, your windows can also be used to quickly change the temperature of a room instead of using the A/C for the same reasons! <br/> In addition, double-paned clear windows are the most effective windows for insulating a house and for letting natural sunlight in.",
                     "icon": "border-all",
                     "points": 100
                 },
@@ -412,7 +412,7 @@
                     "x2": 337,
                     "y2": 403,
                     "title": "Window",
-                    "description": "Keep windows closed to use less heat.",
+                    "description": "Windows are a primary source of heat flow into and out of a house. During the summer, opening your windows during the morning can cool your house efficiently and naturally so your A/C does not need to run all day. Similarly, keeping windows closed in the winter keeps the heat in and prevents your heater from having to work so hard. However, your windows can also be used to quickly change the temperature of a room instead of using the A/C for the same reasons! <br/> In addition, double-paned clear windows are the most effective windows for insulating a house and for letting natural sunlight in.",
                     "icon": "border-all",
                     "points": 100
                 },
