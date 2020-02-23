@@ -318,6 +318,40 @@
                 }
             ]
         },
+        "backyard": {
+            "clickLocations": [
+                {
+                    "x1": 666,
+                    "y1": 351,
+                    "x2": 768,
+                    "y2": 452,
+                    "title": "Air Conditioning Unit",
+                    "description": "Washing towels only when it is needed saves both water and power.",
+                    "icon": "snowflake",
+                    "points": 100
+                },
+                {
+                    "x1": 5,
+                    "y1": 72,
+                    "x2": 609,
+                    "y2": 200,
+                    "title": "Solar Panels",
+                    "description": "Washing towels only when it is needed saves both water and power.",
+                    "icon": "solar-panel",
+                    "points": 100
+                },
+                {
+                    "x1": 312,
+                    "y1": 609,
+                    "x2": 789,
+                    "y2": 700,
+                    "title": "Grass",
+                    "description": "Washing towels only when it is needed saves both water and power.",
+                    "icon": "seedling",
+                    "points": 100
+                }
+            ]
+        },
         "bathroom": {
             "clickLocations": [
                 {
@@ -426,7 +460,6 @@
                 }
             ]
         }
-
     },
     "mapLocations": [
         {
