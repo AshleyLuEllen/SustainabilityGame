@@ -144,7 +144,7 @@ function addScore() {
     
         $(".score-flyer").addClass("fly");
     
-        setInterval(() => {
+        setTimeout(() => {
             $(".score-flyer").hide();
             $(".score-flyer").removeClass("fly");
             updateScore();
