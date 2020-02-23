@@ -233,18 +233,8 @@
                     "points": 100
                 },
                 {
-                    "x1": 216,
-                    "y1": 178,
-                    "x2": 296,
-                    "y2": 453,
-                    "title": "Curtain",
-                    "description": "Use this to cool the house",
-                    "icon": "temperature-low",
-                    "points": 100
-                },
-                {
-                    "x1": 425,
-                    "y1": 198,
+                    "x1": 218,
+                    "y1": 182,
                     "x2": 485,
                     "y2": 384,
                     "title": "Curtain",
