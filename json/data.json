@@ -253,7 +253,180 @@
                     "points": 100
                 }
             ]
+        },
+        "bedroom": {
+            "clickLocations": [
+                {
+                    "x1": 1.5,
+                    "y1": 332,
+                    "x2": 54,
+                    "y2": 402,
+                    "title": "Light",
+                    "description": "Turn off the lights when you leave a room.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 555,
+                    "y1": 388,
+                    "x2": 611,
+                    "y2": 423,
+                    "title": "Light",
+                    "description": "Turn off the lights when you leave a room.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 943,
+                    "y1": 397,
+                    "x2": 998,
+                    "y2": 469,
+                    "title": "Light",
+                    "description": "Turn off the lights when you leave a room.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 52,
+                    "y1": 69,
+                    "x2": 212,
+                    "y2": 127,
+                    "title": "Skylight",
+                    "description": "A skylight is a great way to have light without using energy.",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 321,
+                    "y1": 103,
+                    "x2": 589,
+                    "y2": 177,
+                    "title": "Fan",
+                    "description": "Turn off a fan when you leave.",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 280,
+                    "y1": 207,
+                    "x2": 442,
+                    "y2": 428,
+                    "title": "Bed Sheets",
+                    "description": "Having natural sheets help to reduce the use of plastic.",
+                    "icon": "",
+                    "points": 100
+                }
+            ]
+        },
+        "bathroom": {
+            "clickLocations": [
+                {
+                    "x1": 179,
+                    "y1": 392,
+                    "x2": 242,
+                    "y2": 478,
+                    "title": "Towels",
+                    "description": "Washing towels only when it is needed saves both water and power.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 467,
+                    "y1": 445,
+                    "x2": 242,
+                    "y2": 478,
+                    "title": "Towels",
+                    "description": "Washing towels only when it is needed saves both water and power.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 91,
+                    "y1": 108,
+                    "x2": 209,
+                    "y2": 444,
+                    "title": "Window",
+                    "description": "Keep windows closed to use less heat.",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 244,
+                    "y1": 109,
+                    "x2": 323,
+                    "y2": 165,
+                    "title": "Vent",
+                    "description": "Say something here",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 210,
+                    "y1": 113,
+                    "x2": 246,
+                    "y2": 140,
+                    "title": "Light",
+                    "description": "Turn off the lights when they are not needed.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 430,
+                    "y1": 68,
+                    "x2": 472,
+                    "y2": 84,
+                    "title": "Light",
+                    "description": "Turn off the lights when they are not needed.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 210,
+                    "y1": 113,
+                    "x2": 246,
+                    "y2": 140,
+                    "title": "Sink",
+                    "description": "Make sure that taps do not drip to reduce waisted water.",
+                    "icon": "water",
+                    "points": 100
+                },
+                {
+                    "x1": 345,
+                    "y1": 511,
+                    "x2": 488,
+                    "y2": 664,
+                    "title": "Toilet",
+                    "description": "Say something here",
+                    "icon": "",
+                    "points": 100
+                },
+                {
+                    "x1": 472,
+                    "y1": 84,
+                    "x2": 403,
+                    "y2": 356,
+                    "title": "Shower",
+                    "description": "Say something here",
+                    "icon": "",
+                    "points": 100
+                }
+            ]
+        },
+        "garage": {
+            "clickLocations": [
+                {
+                    "x1": 466,
+                    "y1": 276,
+                    "x2": 531,
+                    "y2": 317,
+                    "title": "Bike",
+                    "description": "Riding a bike is a good way to reduce emissions.",
+                    "icon": "bicycle",
+                    "points": 100
+                }
+            ]
         }
+
     },
     "mapLocations": [
         {
