@@ -465,7 +465,7 @@
                     "y2": 490,
                     "title": "Recycling Bin",
                     "description": "Fill me with some text.",
-                    "icon": "recyle",
+                    "icon": "recycle",
                     "points": 100
                 },
                 {
@@ -475,7 +475,51 @@
                     "y2": 498,
                     "title": "Cleaning Products",
                     "description": "Use natural cleaning products.",
-                    "icon": "recyle",
+                    "icon": "broom",
+                    "points": 100
+                },
+                {
+                    "x1": 501,
+                    "y1": 390,
+                    "x2": 557,
+                    "y2": 502,
+                    "title": "Garbage Can",
+                    "description": "Use natural cleaning products.",
+                    "icon": "trash-alt",
+                    "points": 100
+                }
+            ]
+        },
+        "garden": {
+            "clickLocations": [
+                {
+                    "x1": 25,
+                    "y1": 325,
+                    "x2": 487,
+                    "y2": 469,
+                    "title": "Herbs",
+                    "description": "Riding a bike is a good way to reduce emissions.",
+                    "icon": "seedling",
+                    "points": 100
+                },
+                {
+                    "x1": 488,
+                    "y1": 303,
+                    "x2": 778,
+                    "y2": 693,
+                    "title": "Fruits and Vegetables",
+                    "description": "Fill me with some text.",
+                    "icon": "seedling",
+                    "points": 100
+                },
+                {
+                    "x1": 466,
+                    "y1": 120,
+                    "x2": 603,
+                    "y2": 289,
+                    "title": "Hose",
+                    "description": "Use natural cleaning products.",
+                    "icon": "tint",
                     "points": 100
                 }
             ]
