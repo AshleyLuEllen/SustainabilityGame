@@ -61,7 +61,7 @@
                     "y2": 377,
                     "title": "Console System",
                     "description": "Unplug systems when not in use.",
-                    "icon": "",
+                    "icon": "gamepad",
                     "points": 100
                 },
                 {
@@ -71,7 +71,17 @@
                     "y2": 444,
                     "title": "Window",
                     "description": "Have tight sealed double paned windows.",
-                    "icon": "",
+                    "icon": "border-all",
+                    "points": 100
+                },
+                {
+                    "x1": 460,
+                    "y1": 413,
+                    "x2": 580,
+                    "y2": 540,
+                    "title": "Fireplace",
+                    "description": "Wood-burning and electric fireplaces are the best options for the environment compared to alternatives. Weigh the efficiency of your fireplace versus your heater, as it may even use cheaper/more eco-friendly to use one as a source of heat over the other.",
+                    "icon": "fire",
                     "points": 100
                 }
             ]
@@ -85,7 +95,7 @@
                     "y2": 487,
                     "title": "Fridge",
                     "description": "Use a fridge that is low energy and keep it full.",
-                    "icon": "",
+                    "icon": "apple-alt",
                     "points": 100
                 },
                 {
@@ -95,7 +105,7 @@
                     "y2": 412,
                     "title": "Dishwasher",
                     "description": "Replace dishwashers with one that recycles water or uses less water.",
-                    "icon": "",
+                    "icon": "utensils",
                     "points": 100
                 },
                 {
@@ -105,7 +115,7 @@
                     "y2": 378,
                     "title": "Coffee Pot",
                     "description": "Unplug appliances when not in use.",
-                    "icon": "",
+                    "icon": "coffee",
                     "points": 100
                 },
                 {
@@ -115,7 +125,7 @@
                     "y2": 383,
                     "title": "Coffee Pot",
                     "description": "Unplug appliances when not in use.",
-                    "icon": "",
+                    "icon": "coffee",
                     "points": 100
                 },
                 {
@@ -125,7 +135,57 @@
                     "y2": 387,
                     "title": "Sink",
                     "description": "Make sure that tap is completely off.",
-                    "icon": "",
+                    "icon": "tint",
+                    "points": 100
+                },
+                {
+                    "x1": 440,
+                    "y1": 65,
+                    "x2": 530,
+                    "y2": 115,
+                    "title": "Overhead Light",
+                    "description": "Make sure that tap is completely off.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 658,
+                    "y1": 74,
+                    "x2": 786,
+                    "y2": 167,
+                    "title": "Overhead Light",
+                    "description": "Make sure that tap is completely off.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 836,
+                    "y1": 73,
+                    "x2": 981,
+                    "y2": 174,
+                    "title": "Overhead Light",
+                    "description": "Make sure that tap is completely off.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 340,
+                    "y1": 380,
+                    "x2": 495,
+                    "y2": 561,
+                    "title": "Oven/Stovetop",
+                    "description": "Make sure that tap is completely off.",
+                    "icon": "fire-alt",
+                    "points": 100
+                },
+                {
+                    "x1": 358,
+                    "y1": 231,
+                    "x2": 494,
+                    "y2": 311,
+                    "title": "Microwave",
+                    "description": "Make sure that tap is completely off.",
+                    "icon": "fire-alt",
                     "points": 100
                 }
             ]
@@ -137,7 +197,7 @@
                     "y1": 276,
                     "x2": 531,
                     "y2": 317,
-                    "title": "Light",
+                    "title": "Lamp",
                     "description": "Turn off the lights when you leave a room.",
                     "icon": "lightbulb",
                     "points": 100
@@ -149,7 +209,7 @@
                     "y2": 381,
                     "title": "Computer",
                     "description": "Turn off a computer when you leave.",
-                    "icon": "",
+                    "icon": "desktop",
                     "points": 100
                 },
                 {
@@ -159,7 +219,7 @@
                     "y2": 132,
                     "title": "Fan",
                     "description": "Turn off a fan when you leave.",
-                    "icon": "",
+                    "icon": "fan",
                     "points": 100
                 },
                 {
@@ -169,7 +229,27 @@
                     "y2": 428,
                     "title": "Window",
                     "description": "Have tight sealed double paned windows.",
-                    "icon": "",
+                    "icon": "border-all",
+                    "points": 100
+                },
+                {
+                    "x1": 216,
+                    "y1": 178,
+                    "x2": 296,
+                    "y2": 453,
+                    "title": "Curtain",
+                    "description": "Use this to cool the house",
+                    "icon": "temperature-low",
+                    "points": 100
+                },
+                {
+                    "x1": 425,
+                    "y1": 198,
+                    "x2": 485,
+                    "y2": 384,
+                    "title": "Curtain",
+                    "description": "Use this to cool the house",
+                    "icon": "temperature-low",
                     "points": 100
                 }
             ]
