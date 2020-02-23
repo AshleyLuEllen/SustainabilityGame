@@ -11,7 +11,7 @@
                     "x2": 345,
                     "y2": 114,
                     "title": "Light",
-                    "description": "Turn off the lights when they are not needed.",
+                    "description": "Turn off the lights when they are not needed. Even though a single lightbulb draws very little energy, a whole house of them can cause that number to rise. <br/> Also, LED lightbulbs (as opposed to incandescent bulbs) are extremely energy efficient and long-lasting; an LED bulb can cut energy consumption by over 80% when compared to conventional light bulbs and can last up to 25% longer, not to mention often being cheaper!",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -21,7 +21,7 @@
                     "x2": 716,
                     "y2": 116,
                     "title": "Light",
-                    "description": "Turn off the lights when they are not needed.",
+                    "description": "Turn off the lights when they are not needed. Even though a single lightbulb draws very little energy, a whole house of them can cause that number to rise. <br/> Also, LED lightbulbs (as opposed to incandescent bulbs) are extremely energy efficient and long-lasting; an LED bulb can cut energy consumption by over 80% when compared to conventional light bulbs and can last up to 25% longer, not to mention often being cheaper!",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -30,8 +30,8 @@
                     "y1": 363,
                     "x2": 735,
                     "y2": 425,
-                    "title": "Light",
-                    "description": "Turn off the lights when they are not needed.",
+                    "title": "Lamp",
+                    "description": "Consider using other sources of light for reading or at night. During the day, open a curtain/window to let natural light in. During the night, turn on as few lamps as possible.",
                     "icon": "lightbulb",
                     "points": 100
                 },{
@@ -39,8 +39,8 @@
                     "y1": 361,
                     "x2": 402,
                     "y2": 434,
-                    "title": "Light",
-                    "description": "Turn off the lights when they are not needed.",
+                    "title": "Lamp",
+                    "description": "Consider using other sources of light for reading or at night. During the day, open a curtain/window to let natural light in. During the night, turn on as few lamps as possible.",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -50,7 +50,7 @@
                     "x2": 624,
                     "y2": 341,
                     "title": "Television (TV)",
-                    "description": "TVs are bad. Get rid of them.",
+                    "description": "Televisions, like other appliances, draw electricity even when turned off. Unplug your TVs while you are not using them or are away from the house to not only save money on electricity, but make an indirect effort to reduce fossil fuel consumption in the world. <br/> Many companies are even making \"green\" TVs now, which use sustainable materials and draw less electricity. Next time you get a TV, consider buying one of these!",
                     "icon": "tv",
                     "points": 100
                 },
@@ -59,8 +59,8 @@
                     "y1": 346,
                     "x2": 640,
                     "y2": 377,
-                    "title": "Console System",
-                    "description": "Unplug systems when not in use.",
+                    "title": "Gaming Console/TV Reciever",
+                    "description": "Gaming systems and TV boxes are some of the most-used systems in the average home. Not only that, but they often draw large amounts of electricity because they are turned on for much of the day. Reducing your gaming and TV habits and unplugging these devices when not in use can save large amounts of electricity, and, therefore, fossil fuel power. Consider reading a book instead!",
                     "icon": "gamepad",
                     "points": 100
                 },
