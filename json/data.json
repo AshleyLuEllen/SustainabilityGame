@@ -134,8 +134,7 @@
                     "x2": 659,
                     "y2": 387,
                     "title": "Sink",
-                    "description": "Make sure that tap is completely off.",
-                    "icon": "tint",
+                    "description": "Make sure that tap is completely off each time you use it, this will prevent water from dripping out of the tap and reduce water usage. Consider also getting a faucet that uses less water.",                    "icon": "tint",
                     "points": 100
                 },
                 {
@@ -218,8 +217,7 @@
                     "x2": 576,
                     "y2": 132,
                     "title": "Fan",
-                    "description": "Turn off a fan when you leave.",
-                    "icon": "fan",
+                    "description": "A fan can be great to circulate air but can also use a good amount of power. If it is possible consider opening a window to get fresh air and have the air move around. Also never leave the fan on when you are out of the room to reduce the amount of energy you use.",                    "icon": "fan",
                     "points": 100
                 },
                 {
@@ -292,8 +290,7 @@
                     "x2": 589,
                     "y2": 177,
                     "title": "Fan",
-                    "description": "Say something here",
-                    "icon": "fan",
+                    "description": "A fan can be great to circulate air but can also use a good amount of power. If it is possible consider opening a window to get fresh air and have the air move around. Also never leave the fan on when you are out of the room to reduce the amount of energy you use.",                    "icon": "fan",
                     "points": 100
                 },
                 {
@@ -441,8 +438,7 @@
                     "x2": 883,
                     "y2": 604,
                     "title": "Sink",
-                    "description": "Say something here",
-                    "icon": "tint",
+                    "description": "Make sure that tap is completely off each time you use it, this will prevent water from dripping out of the tap and reduce water usage. Consider also getting a faucet that uses less water.",                    "icon": "tint",
                     "points": 100
                 },
                 {
@@ -505,7 +501,7 @@
                     "x2": 557,
                     "y2": 502,
                     "title": "Garbage Can",
-                    "description": "Say something here",
+                    "description": "Make sure that all of the waste that you put in a garbage can is actually waste. Recycle everything you can. Some things, such as plant-based matter, can even be composted and used in a garden!",
                     "icon": "trash-alt",
                     "points": 100
                 }
