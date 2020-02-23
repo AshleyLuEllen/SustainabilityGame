@@ -261,7 +261,7 @@
                     "y1": 332,
                     "x2": 54,
                     "y2": 402,
-                    "title": "Light",
+                    "title": "Lamp",
                     "description": "Turn off the lights when you leave a room.",
                     "icon": "lightbulb",
                     "points": 100
@@ -271,7 +271,7 @@
                     "y1": 388,
                     "x2": 611,
                     "y2": 423,
-                    "title": "Light",
+                    "title": "Lamp",
                     "description": "Turn off the lights when you leave a room.",
                     "icon": "lightbulb",
                     "points": 100
@@ -281,7 +281,7 @@
                     "y1": 397,
                     "x2": 998,
                     "y2": 469,
-                    "title": "Light",
+                    "title": "Lamp",
                     "description": "Turn off the lights when you leave a room.",
                     "icon": "lightbulb",
                     "points": 100
@@ -293,7 +293,7 @@
                     "y2": 127,
                     "title": "Skylight",
                     "description": "A skylight is a great way to have light without using energy.",
-                    "icon": "",
+                    "icon": "sun",
                     "points": 100
                 },
                 {
@@ -303,17 +303,17 @@
                     "y2": 177,
                     "title": "Fan",
                     "description": "Turn off a fan when you leave.",
-                    "icon": "",
+                    "icon": "fan",
                     "points": 100
                 },
                 {
-                    "x1": 280,
-                    "y1": 207,
-                    "x2": 442,
-                    "y2": 428,
+                    "x1": 329,
+                    "y1": 470,
+                    "x2": 865,
+                    "y2": 663,
                     "title": "Bed Sheets",
                     "description": "Having natural sheets help to reduce the use of plastic.",
-                    "icon": "",
+                    "icon": "bed",
                     "points": 100
                 }
             ]
@@ -333,21 +333,21 @@
                 {
                     "x1": 467,
                     "y1": 445,
-                    "x2": 242,
-                    "y2": 478,
+                    "x2": 547,
+                    "y2": 503,
                     "title": "Towels",
                     "description": "Washing towels only when it is needed saves both water and power.",
                     "icon": "lightbulb",
                     "points": 100
                 },
                 {
-                    "x1": 91,
-                    "y1": 108,
-                    "x2": 209,
-                    "y2": 444,
+                    "x1": 222,
+                    "y1": 174,
+                    "x2": 337,
+                    "y2": 403,
                     "title": "Window",
                     "description": "Keep windows closed to use less heat.",
-                    "icon": "",
+                    "icon": "border-all",
                     "points": 100
                 },
                 {
@@ -357,7 +357,7 @@
                     "y2": 165,
                     "title": "Vent",
                     "description": "Say something here",
-                    "icon": "",
+                    "icon": "wind",
                     "points": 100
                 },
                 {
@@ -381,13 +381,13 @@
                     "points": 100
                 },
                 {
-                    "x1": 210,
-                    "y1": 113,
-                    "x2": 246,
-                    "y2": 140,
+                    "x1": 602,
+                    "y1": 411,
+                    "x2": 883,
+                    "y2": 604,
                     "title": "Sink",
                     "description": "Make sure that taps do not drip to reduce waisted water.",
-                    "icon": "water",
+                    "icon": "tint",
                     "points": 100
                 },
                 {
@@ -397,17 +397,17 @@
                     "y2": 664,
                     "title": "Toilet",
                     "description": "Say something here",
-                    "icon": "",
+                    "icon": "toilet",
                     "points": 100
                 },
                 {
-                    "x1": 472,
-                    "y1": 84,
-                    "x2": 403,
-                    "y2": 356,
+                    "x1": 344,
+                    "y1": 166,
+                    "x2": 425,
+                    "y2": 453,
                     "title": "Shower",
                     "description": "Say something here",
-                    "icon": "",
+                    "icon": "bath",
                     "points": 100
                 }
             ]
