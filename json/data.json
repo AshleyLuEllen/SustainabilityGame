@@ -331,6 +331,20 @@
                     "points": 100
                 }
             ]
+        },
+        "garage": {
+            "clickLocations": [
+                {
+                    "x1": 466,
+                    "y1": 276,
+                    "x2": 531,
+                    "y2": 317,
+                    "title": "Bike",
+                    "description": "Riding a bike is a good way to reduce emissions.",
+                    "icon": "bicycle",
+                    "points": 100
+                }
+            ]
         }
 
     },
