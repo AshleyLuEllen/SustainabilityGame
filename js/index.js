@@ -161,7 +161,7 @@ function endGame() {
         $(".end-trophy").removeClass("color-silver");
         $(".end-trophy").removeClass("color-gold");
         $(".trophy-desc").html("You explored the house to find different ways to live sustainably. Unfortunately, you did not find all of the sources of sustainability. <span class='print-hide'>Click \"Play Again!\" to try and find the things you missed!</span>");
-    } else if (numLocationsFound < numLocationsTotal * 2 / 3) {
+    } else if (numLocationsFound < numLocationsTotal * 9 / 10) {
         $(".trophy-type").text("silver");
         $(".end-trophy").removeClass("color-bronze");
         $(".end-trophy").addClass("color-silver");
