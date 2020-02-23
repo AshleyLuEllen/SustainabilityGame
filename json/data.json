@@ -321,22 +321,22 @@
         "backyard": {
             "clickLocations": [
                 {
-                    "x1": 666,
-                    "y1": 351,
-                    "x2": 768,
-                    "y2": 452,
-                    "title": "Air Conditioning Unit",
-                    "description": "Washing towels only when it is needed saves both water and power.",
-                    "icon": "snowflake",
+                    "x1": 337,
+                    "y1": 307,
+                    "x2": 412,
+                    "y2": 502,
+                    "title": "Umbrella",
+                    "description": "Give me some text.",
+                    "icon": "umbrella-beach",
                     "points": 100
                 },
                 {
-                    "x1": 5,
-                    "y1": 72,
-                    "x2": 609,
-                    "y2": 200,
+                    "x1": 65,
+                    "y1": 91,
+                    "x2": 852,
+                    "y2": 298,
                     "title": "Solar Panels",
-                    "description": "Washing towels only when it is needed saves both water and power.",
+                    "description": "Give me some text.",
                     "icon": "solar-panel",
                     "points": 100
                 },
@@ -345,9 +345,9 @@
                     "y1": 609,
                     "x2": 789,
                     "y2": 700,
-                    "title": "Grass",
-                    "description": "Washing towels only when it is needed saves both water and power.",
-                    "icon": "seedling",
+                    "title": "Hose",
+                    "description": "Give me some text.",
+                    "icon": "tint",
                     "points": 100
                 }
             ]

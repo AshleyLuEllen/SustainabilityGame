@@ -73,8 +73,8 @@ body.print-mode {
 }
 
 #backyard {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Harvey_LA_back_yard_2.jpg/1200px-Harvey_LA_back_yard_2.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Harvey_LA_back_yard_2.jpg/1200px-Harvey_LA_back_yard_2.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("../img/backyard.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/backyard.jpg");
 }
 
 #hallway {
