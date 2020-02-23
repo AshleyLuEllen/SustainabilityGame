@@ -198,7 +198,7 @@
                     "x2": 531,
                     "y2": 317,
                     "title": "Lamp",
-                    "description": "Turn off the lights when you leave a room.",
+                    "description": "Consider using other sources of light for reading or at night. During the day, open a curtain/window to let natural light in. During the night, turn on as few lamps as possible.",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -208,7 +208,7 @@
                     "x2": 844,
                     "y2": 381,
                     "title": "Computer",
-                    "description": "Turn off a computer when you leave.",
+                    "description": "Computers draw a massive amount of energy. Especially if they are used to play games or edit videos, they draw constant amounts of high power. Turn them off and unplug them when they are not in use. Remember that all devices draw power when plugged in, even if they are not turned on.",
                     "icon": "desktop",
                     "points": 100
                 },
@@ -252,7 +252,7 @@
                     "x2": 54,
                     "y2": 402,
                     "title": "Lamp",
-                    "description": "Turn off the lights when you leave a room.",
+                    "description": "Consider using other sources of light for reading or at night. During the day, open a curtain/window to let natural light in. During the night, turn on as few lamps as possible.",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -262,7 +262,7 @@
                     "x2": 611,
                     "y2": 423,
                     "title": "Lamp",
-                    "description": "Turn off the lights when you leave a room.",
+                    "description": "Consider using other sources of light for reading or at night. During the day, open a curtain/window to let natural light in. During the night, turn on as few lamps as possible.",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -272,7 +272,7 @@
                     "x2": 998,
                     "y2": 469,
                     "title": "Lamp",
-                    "description": "Turn off the lights when you leave a room.",
+                    "description": "Consider using other sources of light for reading or at night. During the day, open a curtain/window to let natural light in. During the night, turn on as few lamps as possible.",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -336,7 +336,7 @@
                     "x2": 527,
                     "y2": 622,
                     "title": "Hose",
-                    "description": "Say something here",
+                    "description": "Make sure that you shut your hose all of the way closed after using it. They often leak water, which can add up to significant amounts of waste if left unnoticed. To reduce this risk, consider using a watering can or bucket to limit your water use and better control the water that you waste.",
                     "icon": "tint",
                     "points": 100
                 },
@@ -346,18 +346,17 @@
                     "x2": 538,
                     "y2": 431,
                     "title": "Light",
-                    "description": "Turn off the lights when they are not needed is one great way to reduce energy and our reliance on fossil fuels. Consider also investing in outdoor solar lights that charge during the day and turn on at night when light levels are low.",
+                    "description": "Turning off the lights when they are not needed is one great way to reduce energy and our reliance on fossil fuels. Consider also investing in outdoor solar lights that charge during the day and turn on at night when light levels are low.",
                     "icon": "lightbulb",
                     "points": 100
-                }
-                ,
+                },
                 {
                     "x1": 641,
                     "y1": 380,
                     "x2": 686,
                     "y2": 408,
                     "title": "Light",
-                    "description": "Turn off the lights when they are not needed is one great way to reduce energy and our reliance on fossil fuels. Consider also investing in outdoor solar lights that charge during the day and turn on at night when light levels are low.",
+                    "description": "Turning off the lights when they are not needed is one great way to reduce energy and our reliance on fossil fuels. Consider also investing in outdoor solar lights that charge during the day and turn on at night when light levels are low.",
                     "icon": "lightbulb",
                     "points": 100
                 }
@@ -368,7 +367,7 @@
                     "x2": 914,
                     "y2": 408,
                     "title": "Light",
-                    "description": "Turn off the lights when they are not needed is one great way to reduce energy and our reliance on fossil fuels. Consider also investing in outdoor solar lights that charge during the day and turn on at night when light levels are low.",
+                    "description": "Turning off the lights when they are not needed is one great way to reduce energy and our reliance on fossil fuels. Consider also investing in outdoor solar lights that charge during the day and turn on at night when light levels are low.",
                     "icon": "lightbulb",
                     "points": 100
                 }
@@ -412,7 +411,7 @@
                     "x2": 323,
                     "y2": 165,
                     "title": "Vent",
-                    "description": "Say something here",
+                    "description": "Vents and their connections to your air-conditioning system are great for keeping the air in your bathroom cool and dry. However, they use a ton of energy. Consider opening a window or taking cooler showers in other to lessen their use.",
                     "icon": "wind",
                     "points": 100
                 },
@@ -422,7 +421,7 @@
                     "x2": 246,
                     "y2": 140,
                     "title": "Light",
-                    "description": "Say something here",
+                    "description": "Turn off the lights when they are not needed. Even though a single lightbulb draws very little energy, a whole house of them can cause that number to rise. <br/> Also, LED lightbulbs (as opposed to incandescent bulbs) are extremely energy efficient and long-lasting; an LED bulb can cut energy consumption by over 80% when compared to conventional light bulbs and can last up to 25% longer, not to mention often being cheaper!",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -432,7 +431,7 @@
                     "x2": 472,
                     "y2": 84,
                     "title": "Light",
-                    "description": "Say something here",
+                    "description": "Turn off the lights when they are not needed. Even though a single lightbulb draws very little energy, a whole house of them can cause that number to rise. <br/> Also, LED lightbulbs (as opposed to incandescent bulbs) are extremely energy efficient and long-lasting; an LED bulb can cut energy consumption by over 80% when compared to conventional light bulbs and can last up to 25% longer, not to mention often being cheaper!",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -540,7 +539,7 @@
                     "x2": 603,
                     "y2": 289,
                     "title": "Hose",
-                    "description": "Say something here",
+                    "description": "Make sure that you shut your hose all of the way closed after using it. They often leak water, which can add up to significant amounts of waste if left unnoticed. To reduce this risk, consider using a watering can or bucket to limit your water use and better control the water that you waste.",
                     "icon": "tint",
                     "points": 100
                 }
