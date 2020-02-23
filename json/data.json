@@ -104,7 +104,7 @@
                     "x2": 791,
                     "y2": 412,
                     "title": "Dishwasher",
-                    "description": "Replace dishwashers with one that recycles water or uses less water.",
+                    "description": "The best way to save water while washing dishes is washing them manually. However, if you must use a dishwasher, get one which recycles water or uses water more efficiently. <br/> Also, use dish soaps which are naturally based and have few chemical additives.",
                     "icon": "utensils",
                     "points": 100
                 },
@@ -114,7 +114,7 @@
                     "x2": 287,
                     "y2": 378,
                     "title": "Coffee Pot",
-                    "description": "Unplug appliances when not in use.",
+                    "description": "Coffee pots are often left plugged-in overnight. Consider unplugging them during the day and throughout the night, plugging them in right when you wake up in the mornings, and drinking your morning your cup of coffee later in the morning.",
                     "icon": "coffee",
                     "points": 100
                 },
@@ -124,7 +124,7 @@
                     "x2": 781,
                     "y2": 383,
                     "title": "Coffee Pot",
-                    "description": "Unplug appliances when not in use.",
+                    "description": "Coffee pots are often left plugged-in overnight. Consider unplugging them during the day and throughout the night, plugging them in right when you wake up in the mornings, and drinking your morning your cup of coffee later in the morning.",
                     "icon": "coffee",
                     "points": 100
                 },
@@ -144,7 +144,7 @@
                     "x2": 530,
                     "y2": 115,
                     "title": "Overhead Light",
-                    "description": "Make sure that tap is completely off.",
+                    "description": "Turn off the lights when they are not needed. Even though a single lightbulb draws very little energy, a whole house of them can cause that number to rise. <br/> Also, LED lightbulbs (as opposed to incandescent bulbs) are extremely energy efficient and long-lasting; an LED bulb can cut energy consumption by over 80% when compared to conventional light bulbs and can last up to 25% longer, not to mention often being cheaper!",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -154,7 +154,7 @@
                     "x2": 786,
                     "y2": 167,
                     "title": "Overhead Light",
-                    "description": "Make sure that tap is completely off.",
+                    "description": "Turn off the lights when they are not needed. Even though a single lightbulb draws very little energy, a whole house of them can cause that number to rise. <br/> Also, LED lightbulbs (as opposed to incandescent bulbs) are extremely energy efficient and long-lasting; an LED bulb can cut energy consumption by over 80% when compared to conventional light bulbs and can last up to 25% longer, not to mention often being cheaper!",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -164,7 +164,7 @@
                     "x2": 981,
                     "y2": 174,
                     "title": "Overhead Light",
-                    "description": "Make sure that tap is completely off.",
+                    "description": "Turn off the lights when they are not needed. Even though a single lightbulb draws very little energy, a whole house of them can cause that number to rise. <br/> Also, LED lightbulbs (as opposed to incandescent bulbs) are extremely energy efficient and long-lasting; an LED bulb can cut energy consumption by over 80% when compared to conventional light bulbs and can last up to 25% longer, not to mention often being cheaper!",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -174,7 +174,7 @@
                     "x2": 495,
                     "y2": 561,
                     "title": "Oven/Stovetop",
-                    "description": "Make sure that tap is completely off.",
+                    "description": "Appliances like these draw a lot of energy while in use. Make sure to unplug them when you go on vacation or don't use them for extended periods of time.",
                     "icon": "fire-alt",
                     "points": 100
                 },
@@ -184,7 +184,7 @@
                     "x2": 494,
                     "y2": 311,
                     "title": "Microwave",
-                    "description": "Make sure that tap is completely off.",
+                    "description": "Appliances like these draw a lot of energy while in use. Make sure to unplug them when you go on vacation or don't use them for extended periods of time.",
                     "icon": "fire-alt",
                     "points": 100
                 }
