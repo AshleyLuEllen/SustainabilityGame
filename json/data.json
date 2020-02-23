@@ -61,7 +61,7 @@
                     "y2": 377,
                     "title": "Console System",
                     "description": "Unplug systems when not in use.",
-                    "icon": "",
+                    "icon": "gamepad",
                     "points": 100
                 },
                 {
@@ -71,7 +71,17 @@
                     "y2": 444,
                     "title": "Window",
                     "description": "Have tight sealed double paned windows.",
-                    "icon": "",
+                    "icon": "border-all",
+                    "points": 100
+                },
+                {
+                    "x1": 460,
+                    "y1": 413,
+                    "x2": 580,
+                    "y2": 540,
+                    "title": "Fireplace",
+                    "description": "Wood-burning and electric fireplaces are the best options for the environment compared to alternatives. Weigh the efficiency of your fireplace versus your heater, as it may even use cheaper/more eco-friendly to use one as a source of heat over the other.",
+                    "icon": "fire",
                     "points": 100
                 }
             ]
@@ -85,7 +95,7 @@
                     "y2": 487,
                     "title": "Fridge",
                     "description": "Use a fridge that is low energy and keep it full.",
-                    "icon": "",
+                    "icon": "apple-alt",
                     "points": 100
                 },
                 {
@@ -95,7 +105,7 @@
                     "y2": 412,
                     "title": "Dishwasher",
                     "description": "Replace dishwashers with one that recycles water or uses less water.",
-                    "icon": "",
+                    "icon": "utensils",
                     "points": 100
                 },
                 {
@@ -105,7 +115,7 @@
                     "y2": 378,
                     "title": "Coffee Pot",
                     "description": "Unplug appliances when not in use.",
-                    "icon": "",
+                    "icon": "coffee",
                     "points": 100
                 },
                 {
@@ -115,7 +125,7 @@
                     "y2": 383,
                     "title": "Coffee Pot",
                     "description": "Unplug appliances when not in use.",
-                    "icon": "",
+                    "icon": "coffee",
                     "points": 100
                 },
                 {
@@ -125,7 +135,57 @@
                     "y2": 387,
                     "title": "Sink",
                     "description": "Make sure that tap is completely off.",
-                    "icon": "",
+                    "icon": "tint",
+                    "points": 100
+                },
+                {
+                    "x1": 440,
+                    "y1": 65,
+                    "x2": 530,
+                    "y2": 115,
+                    "title": "Overhead Light",
+                    "description": "Make sure that tap is completely off.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 658,
+                    "y1": 74,
+                    "x2": 786,
+                    "y2": 167,
+                    "title": "Overhead Light",
+                    "description": "Make sure that tap is completely off.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 836,
+                    "y1": 73,
+                    "x2": 981,
+                    "y2": 174,
+                    "title": "Overhead Light",
+                    "description": "Make sure that tap is completely off.",
+                    "icon": "lightbulb",
+                    "points": 100
+                },
+                {
+                    "x1": 340,
+                    "y1": 380,
+                    "x2": 495,
+                    "y2": 561,
+                    "title": "Oven/Stovetop",
+                    "description": "Make sure that tap is completely off.",
+                    "icon": "fire-alt",
+                    "points": 100
+                },
+                {
+                    "x1": 358,
+                    "y1": 231,
+                    "x2": 494,
+                    "y2": 311,
+                    "title": "Microwave",
+                    "description": "Make sure that tap is completely off.",
+                    "icon": "fire-alt",
                     "points": 100
                 }
             ]
@@ -137,7 +197,7 @@
                     "y1": 276,
                     "x2": 531,
                     "y2": 317,
-                    "title": "Light",
+                    "title": "Lamp",
                     "description": "Turn off the lights when you leave a room.",
                     "icon": "lightbulb",
                     "points": 100
@@ -149,7 +209,7 @@
                     "y2": 381,
                     "title": "Computer",
                     "description": "Turn off a computer when you leave.",
-                    "icon": "",
+                    "icon": "desktop",
                     "points": 100
                 },
                 {
@@ -159,7 +219,7 @@
                     "y2": 132,
                     "title": "Fan",
                     "description": "Turn off a fan when you leave.",
-                    "icon": "",
+                    "icon": "fan",
                     "points": 100
                 },
                 {
@@ -169,7 +229,27 @@
                     "y2": 428,
                     "title": "Window",
                     "description": "Have tight sealed double paned windows.",
-                    "icon": "",
+                    "icon": "border-all",
+                    "points": 100
+                },
+                {
+                    "x1": 216,
+                    "y1": 178,
+                    "x2": 296,
+                    "y2": 453,
+                    "title": "Curtain",
+                    "description": "Use this to cool the house",
+                    "icon": "temperature-low",
+                    "points": 100
+                },
+                {
+                    "x1": 425,
+                    "y1": 198,
+                    "x2": 485,
+                    "y2": 384,
+                    "title": "Curtain",
+                    "description": "Use this to cool the house",
+                    "icon": "temperature-low",
                     "points": 100
                 }
             ]
@@ -181,7 +261,7 @@
                     "y1": 332,
                     "x2": 54,
                     "y2": 402,
-                    "title": "Light",
+                    "title": "Lamp",
                     "description": "Turn off the lights when you leave a room.",
                     "icon": "lightbulb",
                     "points": 100
@@ -191,7 +271,7 @@
                     "y1": 388,
                     "x2": 611,
                     "y2": 423,
-                    "title": "Light",
+                    "title": "Lamp",
                     "description": "Turn off the lights when you leave a room.",
                     "icon": "lightbulb",
                     "points": 100
@@ -201,7 +281,7 @@
                     "y1": 397,
                     "x2": 998,
                     "y2": 469,
-                    "title": "Light",
+                    "title": "Lamp",
                     "description": "Turn off the lights when you leave a room.",
                     "icon": "lightbulb",
                     "points": 100
@@ -213,7 +293,7 @@
                     "y2": 127,
                     "title": "Skylight",
                     "description": "A skylight is a great way to have light without using energy.",
-                    "icon": "",
+                    "icon": "sun",
                     "points": 100
                 },
                 {
@@ -223,17 +303,17 @@
                     "y2": 177,
                     "title": "Fan",
                     "description": "Turn off a fan when you leave.",
-                    "icon": "",
+                    "icon": "fan",
                     "points": 100
                 },
                 {
-                    "x1": 280,
-                    "y1": 207,
-                    "x2": 442,
-                    "y2": 428,
+                    "x1": 329,
+                    "y1": 470,
+                    "x2": 865,
+                    "y2": 663,
                     "title": "Bed Sheets",
                     "description": "Having natural sheets help to reduce the use of plastic.",
-                    "icon": "",
+                    "icon": "bed",
                     "points": 100
                 }
             ]
@@ -253,21 +333,21 @@
                 {
                     "x1": 467,
                     "y1": 445,
-                    "x2": 242,
-                    "y2": 478,
+                    "x2": 547,
+                    "y2": 503,
                     "title": "Towels",
                     "description": "Washing towels only when it is needed saves both water and power.",
                     "icon": "lightbulb",
                     "points": 100
                 },
                 {
-                    "x1": 91,
-                    "y1": 108,
-                    "x2": 209,
-                    "y2": 444,
+                    "x1": 222,
+                    "y1": 174,
+                    "x2": 337,
+                    "y2": 403,
                     "title": "Window",
                     "description": "Keep windows closed to use less heat.",
-                    "icon": "",
+                    "icon": "border-all",
                     "points": 100
                 },
                 {
@@ -277,7 +357,7 @@
                     "y2": 165,
                     "title": "Vent",
                     "description": "Say something here",
-                    "icon": "",
+                    "icon": "wind",
                     "points": 100
                 },
                 {
@@ -301,13 +381,13 @@
                     "points": 100
                 },
                 {
-                    "x1": 210,
-                    "y1": 113,
-                    "x2": 246,
-                    "y2": 140,
+                    "x1": 602,
+                    "y1": 411,
+                    "x2": 883,
+                    "y2": 604,
                     "title": "Sink",
                     "description": "Make sure that taps do not drip to reduce waisted water.",
-                    "icon": "water",
+                    "icon": "tint",
                     "points": 100
                 },
                 {
@@ -317,17 +397,17 @@
                     "y2": 664,
                     "title": "Toilet",
                     "description": "Say something here",
-                    "icon": "",
+                    "icon": "toilet",
                     "points": 100
                 },
                 {
-                    "x1": 472,
-                    "y1": 84,
-                    "x2": 403,
-                    "y2": 356,
+                    "x1": 344,
+                    "y1": 166,
+                    "x2": 425,
+                    "y2": 453,
                     "title": "Shower",
                     "description": "Say something here",
-                    "icon": "",
+                    "icon": "bath",
                     "points": 100
                 }
             ]
