@@ -336,18 +336,50 @@
                     "x2": 852,
                     "y2": 298,
                     "title": "Solar Panels",
-                    "description": "Give me some text.",
+                    "description": "Solar energy is a renewable free source of energy that is sustainable and totally inexhaustible, unlike fossil fuels that are finite. It is also a non-polluting source of energy and it does not emit any greenhouse gases when producing electricity.",
                     "icon": "solar-panel",
                     "points": 100
                 },
                 {
-                    "x1": 312,
-                    "y1": 609,
-                    "x2": 789,
-                    "y2": 700,
+                    "x1": 465,
+                    "y1": 522,
+                    "x2": 527,
+                    "y2": 622,
                     "title": "Hose",
                     "description": "Give me some text.",
                     "icon": "tint",
+                    "points": 100
+                },
+                {
+                    "x1": 492,
+                    "y1": 371,
+                    "x2": 538,
+                    "y2": 431,
+                    "title": "Light",
+                    "description": "Turn off the lights when they are not needed.",
+                    "icon": "lightbulb",
+                    "points": 100
+                }
+                ,
+                {
+                    "x1": 641,
+                    "y1": 380,
+                    "x2": 686,
+                    "y2": 408,
+                    "title": "Light",
+                    "description": "Turn off the lights when they are not needed.",
+                    "icon": "lightbulb",
+                    "points": 100
+                }
+                ,
+                {
+                    "x1": 845,
+                    "y1": 301,
+                    "x2": 914,
+                    "y2": 408,
+                    "title": "Light",
+                    "description": "Turn off the lights when they are not needed.",
+                    "icon": "lightbulb",
                     "points": 100
                 }
             ]
@@ -430,7 +462,7 @@
                     "x2": 488,
                     "y2": 664,
                     "title": "Toilet",
-                    "description": "Say something here",
+                    "description": "Consider swapping your toilet to a low-flush toilet. A normal toilet on average uses 1.6 gallons per flush, while a low-flush one can use 1.3. <br/> This may not seem like a big difference, but it adds up. In 2011, the San Francisco Chronicle reported that, while low-flush toilets are estimated to have saved the city of San Francisco 20 million gallons of water per year.",
                     "icon": "toilet",
                     "points": 100
                 },
@@ -440,7 +472,7 @@
                     "x2": 425,
                     "y2": 453,
                     "title": "Shower",
-                    "description": "Say something here",
+                    "description": "A bathtub is a huge waste of water, a full bath can use 70 gallons of water, whereas a five-minute shower takes only 10 to 25 gallons. This can reduce the amount of water we use on a daily basis.",
                     "icon": "bath",
                     "points": 100
                 }
@@ -454,7 +486,7 @@
                     "x2": 304,
                     "y2": 488,
                     "title": "Bike",
-                    "description": "Riding a bike is a good way to reduce emissions.",
+                    "description": "Cycling causes virtually no environmental damage, promotes health through physical activity, takes up little space and is economical, both in direct user costs and public infrastructure costs. In short, cycling is environmentally, socially and economically sustainable.",
                     "icon": "bicycle",
                     "points": 100
                 },
@@ -474,7 +506,7 @@
                     "x2": 956,
                     "y2": 498,
                     "title": "Cleaning Products",
-                    "description": "Use natural cleaning products.",
+                    "description": "Sustainable cleaning refers to cleaning habits and methods that individuals can continue to use indefinitely, without worry that their efforts will negatively affect their own health or that of the environment. In other words, it's a maintainable cleaning routine that is good for you and good for the environment. <br/> One great way to do this is use natural products by companies that focus on the environment.",
                     "icon": "broom",
                     "points": 100
                 },
