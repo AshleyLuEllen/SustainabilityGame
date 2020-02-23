@@ -248,7 +248,7 @@
                     "x2": 485,
                     "y2": 384,
                     "title": "Curtain",
-                    "description": "Use this to cool the house",
+                    "description": "Blackout curtains can help keep heat out in the summer to reduce on air-conditioning costs and keep the heat in during the winter to reduce the amout of heat needed.",
                     "icon": "temperature-low",
                     "points": 100
                 }
@@ -302,7 +302,7 @@
                     "x2": 589,
                     "y2": 177,
                     "title": "Fan",
-                    "description": "Turn off a fan when you leave.",
+                    "description": "Say something here",
                     "icon": "fan",
                     "points": 100
                 },
@@ -312,7 +312,7 @@
                     "x2": 865,
                     "y2": 663,
                     "title": "Bed Sheets",
-                    "description": "Having natural sheets help to reduce the use of plastic.",
+                    "description": "The textile industry uses some of the most polluting practices on the planet. Consider buying sustainably produced natural or recycled sheets help to reduce the use of synthetics and polition produced by factories.",
                     "icon": "bed",
                     "points": 100
                 }
@@ -326,7 +326,7 @@
                     "x2": 412,
                     "y2": 502,
                     "title": "Umbrella",
-                    "description": "Give me some text.",
+                    "description": "An umbrella is a great source of shade on a hot day that does not require much. When buying an umbrella consider the materials and how long it will last to reduce consumerism waste.",
                     "icon": "umbrella-beach",
                     "points": 100
                 },
@@ -346,7 +346,7 @@
                     "x2": 527,
                     "y2": 622,
                     "title": "Hose",
-                    "description": "Give me some text.",
+                    "description": "Say something here",
                     "icon": "tint",
                     "points": 100
                 },
@@ -356,7 +356,7 @@
                     "x2": 538,
                     "y2": 431,
                     "title": "Light",
-                    "description": "Turn off the lights when they are not needed.",
+                    "description": "Turn off the lights when they are not needed is one great way to reduce energy and our reliance on fossil fuels. Consider also investing in outdoor solar lights that charge during the day and turn on at night when light levels are low.",
                     "icon": "lightbulb",
                     "points": 100
                 }
@@ -367,7 +367,7 @@
                     "x2": 686,
                     "y2": 408,
                     "title": "Light",
-                    "description": "Turn off the lights when they are not needed.",
+                    "description": "Turn off the lights when they are not needed is one great way to reduce energy and our reliance on fossil fuels. Consider also investing in outdoor solar lights that charge during the day and turn on at night when light levels are low.",
                     "icon": "lightbulb",
                     "points": 100
                 }
@@ -378,7 +378,7 @@
                     "x2": 914,
                     "y2": 408,
                     "title": "Light",
-                    "description": "Turn off the lights when they are not needed.",
+                    "description": "Turn off the lights when they are not needed is one great way to reduce energy and our reliance on fossil fuels. Consider also investing in outdoor solar lights that charge during the day and turn on at night when light levels are low.",
                     "icon": "lightbulb",
                     "points": 100
                 }
@@ -392,7 +392,7 @@
                     "x2": 242,
                     "y2": 478,
                     "title": "Towels",
-                    "description": "Washing towels only when it is needed saves both water and power.",
+                    "description": "Washing towels only when it is needed saves both water and energy. When buying towels consider the materials and finding a sustaniable company to make your purchase from.",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -402,7 +402,7 @@
                     "x2": 547,
                     "y2": 503,
                     "title": "Towels",
-                    "description": "Washing towels only when it is needed saves both water and power.",
+                    "description": "Washing towels only when it is needed saves both water and energy. When buying towels consider the materials and finding a sustaniable company to make your purchase from.",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -432,7 +432,7 @@
                     "x2": 246,
                     "y2": 140,
                     "title": "Light",
-                    "description": "Turn off the lights when they are not needed.",
+                    "description": "Say something here",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -442,7 +442,7 @@
                     "x2": 472,
                     "y2": 84,
                     "title": "Light",
-                    "description": "Turn off the lights when they are not needed.",
+                    "description": "Say something here",
                     "icon": "lightbulb",
                     "points": 100
                 },
@@ -452,7 +452,7 @@
                     "x2": 883,
                     "y2": 604,
                     "title": "Sink",
-                    "description": "Make sure that taps do not drip to reduce waisted water.",
+                    "description": "Say something here",
                     "icon": "tint",
                     "points": 100
                 },
@@ -496,7 +496,7 @@
                     "x2": 490,
                     "y2": 490,
                     "title": "Recycling Bin",
-                    "description": "Fill me with some text.",
+                    "description": "First always reduce the amount of waste you produce, but of you can not reduce consider recycling plastics and other materials, you can find what can be recycled by your local recycling center.",
                     "icon": "recycle",
                     "points": 100
                 },
@@ -516,7 +516,7 @@
                     "x2": 557,
                     "y2": 502,
                     "title": "Garbage Can",
-                    "description": "Use natural cleaning products.",
+                    "description": "Say something here",
                     "icon": "trash-alt",
                     "points": 100
                 }
@@ -530,7 +530,7 @@
                     "x2": 487,
                     "y2": 469,
                     "title": "Herbs",
-                    "description": "Riding a bike is a good way to reduce emissions.",
+                    "description": "Say something here",
                     "icon": "seedling",
                     "points": 100
                 },
@@ -540,7 +540,7 @@
                     "x2": 778,
                     "y2": 693,
                     "title": "Fruits and Vegetables",
-                    "description": "Fill me with some text.",
+                    "description": "Say something here",
                     "icon": "seedling",
                     "points": 100
                 },
@@ -550,7 +550,7 @@
                     "x2": 603,
                     "y2": 289,
                     "title": "Hose",
-                    "description": "Use natural cleaning products.",
+                    "description": "Say something here",
                     "icon": "tint",
                     "points": 100
                 }
