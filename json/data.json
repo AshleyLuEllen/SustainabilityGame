@@ -449,13 +449,33 @@
         "garage": {
             "clickLocations": [
                 {
-                    "x1": 466,
-                    "y1": 276,
-                    "x2": 531,
-                    "y2": 317,
+                    "x1": 126,
+                    "y1": 359,
+                    "x2": 304,
+                    "y2": 488,
                     "title": "Bike",
                     "description": "Riding a bike is a good way to reduce emissions.",
                     "icon": "bicycle",
+                    "points": 100
+                },
+                {
+                    "x1": 447,
+                    "y1": 432,
+                    "x2": 490,
+                    "y2": 490,
+                    "title": "Recycling Bin",
+                    "description": "Fill me with some text.",
+                    "icon": "recyle",
+                    "points": 100
+                },
+                {
+                    "x1": 850,
+                    "y1": 423,
+                    "x2": 956,
+                    "y2": 498,
+                    "title": "Cleaning Products",
+                    "description": "Use natural cleaning products.",
+                    "icon": "recyle",
                     "points": 100
                 }
             ]
